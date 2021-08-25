@@ -1,0 +1,308 @@
+:root{
+    --theme_orange: orange;
+}
+html{
+    font-size: 17px;
+}
+body{
+    color: rgb(100, 98, 98);
+}
+p{
+    font-size: 1rem;
+}
+.services{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery-down{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.small-bottom-margin{
+    margin-bottom: 20px;
+}
+.gallery-item{
+    width:25%;
+    flex: 0 0 25%;
+}
+
+.addons{
+    background-image: url("../image/seabeach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.addon-image{
+    width: 25%;
+}
+.img-fix-width{
+    width:100%;
+}
+
+.menu-item{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.img-fix-height{
+    height: 100%;
+}
+.projects{
+    text-align: center;
+}
+.heading-text{
+    text-align: center;
+    color:  var(--theme_orange);
+    margin-bottom: 30px;
+}
+.top-margin{
+    padding-top: 20px;
+}
+.nav-item{
+    height: 76.66px;
+}
+.navbar-nav{
+    padding-right: 10px;
+    align-items: flex-end;
+    height: 100%;
+}
+@media (max-width: 992px){
+
+.nav-item {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: white !important;
+}
+.navbar-nav{
+    background-color: black;
+    padding-right: 0px;
+}
+
+}
+.bg-slight{
+    width: 100% ;
+    background-color:#80008073;
+}
+.addon-body{
+    display: flex;
+}
+.addon-text{
+    width: 70%;
+    padding-left: 40px;
+    color: white;
+}
+.addon-text h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline dashed red;
+}
+.testimonials{
+    display: flex;
+    padding: 10px 40px 0px 40px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.recent-testimonial{
+    width: 65%;
+    padding-right: 40px;
+}
+.notice{
+    width: 35%;
+}
+.testimonial-img{
+    width: 70px;
+    border-radius: 50%;
+}
+.testimonial-inner{
+    display: flex;
+    align-items: center;
+}
+.testimonial-message{
+    padding-left: 20px;
+}
+.testi-head{
+    color: var(--theme_orange);
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.copy-right{
+    background-color: var(--theme_orange);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.service-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item{
+    width:25%;
+    padding: 0px 40px 0px 40px;
+}
+.fixed-laptop-icon{
+    width: 100px;
+}
+
+.medium-top-margin{
+    margin-top: 40px;
+}
+.services>p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading-text-project{
+    color:  var(--theme_orange);
+    margin-bottom: 20px;
+
+}
+.learn-more{
+    border: none;
+    color: black;
+    background-color:rgb(82 76 76 / 36%);
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+}
+.carousel{
+    margin-top:  76.66px;
+}
+
+.menu-item:hover .nav-link{
+    color: whitesmoke !important;
+}
+.menu-item:hover {
+    background-color:  var(--theme_orange);
+}
+
+.item-last{
+    margin-right: 20px;
+}
+.addon-body{
+    padding-bottom: 20px
+}
+@media screen and (max-width: 1000px){
+    .service-item{
+        padding: 0px 20px 0px 20px;
+    }
+    .services{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .testimonials{
+        padding: 10px 20px 10px 20px;
+    }
+    .service-item{
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 35px;
+    }
+
+    .services{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+
+    html{
+        font-size: 14px;
+    }
+    .service-content{
+        flex-direction: column;
+    }
+    .service-item{
+        width: 100%;
+    }
+
+    .small-bottom-margin{
+        flex-direction: column-reverse;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery-down{
+        flex-direction: column-reverse;
+    }
+    
+    .gallery-item{
+        width: 100%;
+    }
+
+    .addon-body{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .addon-image{
+        width: 80%;
+    }
+    .mob-menu-icon{
+        display: block;
+    }
+    .addon-text{
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .testi-head{
+        font-size: 2rem;
+    }
+    .testimonials{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .recent-testimonial{
+        text-align: center;
+       width: 100%;
+       padding: 0px;
+    }
+    .testimonial-message{
+       padding: 0px;
+    }
+    .notice{
+        text-align: center;
+        width: 100%;
+    }
+    .testimonial-inner{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    
+   
+}
+@media screen and (max-width: 500px){
+    html{
+        font-size: 12px;
+    }
+    p{
+        font-size: 1.35rem;
+    }
+    h2{
+        font-size: 2.1rem;
+    }
+    .learn-more{
+        font-size: 1.35rem;
+    }
+}
+
+
